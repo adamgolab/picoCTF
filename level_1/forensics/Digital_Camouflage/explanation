@@ -2,8 +2,11 @@ Problem:
 We need to gain access to some routers. Let's try and see if we can find the password in the captured network data: data.pcap.
 
 Explanation:
-A Packet Capture (pcap) consists of an API for capturing network traffic. Applications like libpcap and WinPcap provide packet-capturing and filtering engineers that allow saving into files that can be read via applications like Wireshark. 
+.pcap
+A Packet Capture (pcap) consists of an API for capturing network traffic 
 
-A user entering a password would utlize an HTTP protocol, so sorting by protocol and looking for a POST method request we see a row labeled HTML Form URL Encoded which contains the form userid and the form pswrd. 
+Wireshark
+Sniffing & Spoofing tool that allows you to read .pcap files
 
-Looking at the password, it looks like it's encrypted. Google shows encryption ending with an == implies Base64.
+Base64
+A type of encoding that typically ends with ==

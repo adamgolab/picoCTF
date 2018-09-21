@@ -2,5 +2,17 @@ Problem:
 While webshells are nice, it'd be nice to be able to login directly. To do so, please add your own public key to ~/.ssh/authorized_keys, using the webshell. Make sure to copy it correctly! The key is in the ssh banner, displayed when you login remotely with ssh, to shell2017.picoctf.com.
 
 Explanation:
-SSH (Secure Socket Shell) is a network protocol that allows a secure way to access a remote computer. To create an SSH key on my local device, I ran ssh-keygen -t rsa -C "email@address.com" then copied the content using cat id_rsa.pub. With that copied to the clipboard, I went to the webshell and navigates to the .ssh folder and added the copied content to the authorized_keys file. Following that, I was able to ssh from my local computer to the webshell using the following command
-ssh -i ~/.ssh/id_rsa adamgolab@shell2017.picoctf.com 
+SSH (Secure Socket Shell)
+a network protocol that allows a secure way to access a remote computer
+
+Generating an SSH Key on local device
+$ ssh-keygen -t rsa -C "email@address.com" 
+
+cat id_rsa.pub
+cat allows you to view content of a file, id_rsa.pub is the public key
+
+authorized_keys
+added public key to .ssh/authorized_keys on webshell
+
+Local -> webshell
+ssh -i/.ssh/id_rsa adamgolab@shell2017.picoctf.com
