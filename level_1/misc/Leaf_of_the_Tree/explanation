@@ -1,0 +1,15 @@
+Problem:
+We found this annoyingly named directory tree strting at /problems/b70fe.... It would be pretty lame to type out all of those directory names but maybe there is something in there worth finding? And maybe we dont need to type out all those names...? Follow the trunk, using cat and ls!
+
+Explanation:
+Change Directory (cd)
+cd .. -> to go up
+cd directory -> to go into
+
+List (ls)
+ls -> lists files in current directory
+ls -l -> lists files with permissions
+ls -a -> lists all files including hidden files
+
+Find (find)
+Search for files in a directory hierarchy

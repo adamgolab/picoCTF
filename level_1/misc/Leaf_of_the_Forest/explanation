@@ -1,0 +1,6 @@
+Problem:
+We found an even bigger directory tree hiding a flag starting at /problems/df79. It would be impossible to find the file named flag manually...
+
+Explanation:
+Find (find)
+Search for files in a directory hierarchy

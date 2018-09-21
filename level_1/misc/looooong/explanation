@@ -1,0 +1,8 @@
+Problem:
+I heard you have some "delusions of grandeur" about your typing speed. How fast can you go at shell2017.picoctf.com:59858?
+
+Explanation:
+nc shell2017.picoctf.com 59858
+
+Python
+open a new shell and use python to print 'character'*number
