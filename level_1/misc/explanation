@@ -1,0 +1,8 @@
+Problem:
+I was told there was something at IP shell2017.picoctf.com with port 24369.
+ How do I get there? Do I need a ship for the port?
+
+Explanation:
+The hint tells us to look at what the netcat (nc) command does. Netcat operates by initiating
+a TCP connection to a remote host. The basic syntax is: $ netcat host port
+
