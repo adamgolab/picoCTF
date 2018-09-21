@@ -1,0 +1,6 @@
+Problem:
+This program requires some unprintable characters as input... But how do you print unprintable characters? CLI yourself to /problems/f8c6 and turn that Hex2Raw!
+
+Explanation:
+Using python in problems/f8c6.. directory;
+python -c "print('givenString'.decode('hex')) | ./hex2raw

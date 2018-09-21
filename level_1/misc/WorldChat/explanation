@@ -1,0 +1,11 @@
+Problem:
+We think someone is trying to transmit a flag over WorldChat. Unfortunately, there are so many other people talking that we can't really keep track of what is going on! Go see if you can find the messenger at shell2017.picoctf.com:11511.
+
+Explanation:
+grep
+Searches plain text for matches
+$ grep "flag" | "part" 
+only displays lines with "flag" and "part"
+
+(Piping) |
+Allows for multiple commands at once split with |
