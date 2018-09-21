@@ -1,0 +1,9 @@
+Problem:
+This program just prints a flag in raw form. All we need to do is convert the output to hex and we have it! CLI yourself to /problems/87c7... and turn that Raw2Hex!
+
+Explanation:
+cut -d
+cut using a delimiter, as ":" and selecting field 2 (-f2)
+
+xxd -p
+hex values
