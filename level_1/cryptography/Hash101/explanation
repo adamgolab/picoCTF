@@ -1,0 +1,23 @@
+Problem:
+Prove your knowledge of hashes and claim a flag as your prize! Connect to the service at shell2017.picoctf.com:22628
+
+Explanation:
+www.asciitable.com
+'string'.encode('hex')
+returns hex value of given string
+
+'hexValue'.decode('hex')
+returns string value of given hex #
+
+int('hexValue',16)
+returns decimal val
+
+[c for c in 'string']
+list comprehension
+c becomes object iterable through length of 'string'
+
+ord(c)
+gets ascii value of each iteration through 'string' (c)
+
+sum(list)
+returns sum of list
