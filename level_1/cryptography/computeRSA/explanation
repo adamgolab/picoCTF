@@ -1,0 +1,9 @@
+Problem:
+RSA encryption/decryption is based on a formula that anyone can find and use, as long as they know the values to plug in.
+Given the encrypted number, 150815, d=1941, N=435979, what is the decrypted number?
+
+Explanation:
+RSA is an algorithm used by modern computers to encrypt and decrypt messages. There is a public key that can be given to anyone, and a private key that must be kept private. 
+
+To Decrypt:
+(encryptedNumber)^(d) mod (n) where n is the private key
